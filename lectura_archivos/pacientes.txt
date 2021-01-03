@@ -1,0 +1,6 @@
+1|Jorge|Perez|111|Coomeva|35
+2|David|McEwen|22222|Sura|23
+3|Maria Paulina|Rivera|22223344|Nueva EPS|20
+4|Juan|Pérez|234543|Sura|27
+5|Carlos|Osorio|332211|Sura|56
+6|Amparo|Grisales|8888|Sura|99

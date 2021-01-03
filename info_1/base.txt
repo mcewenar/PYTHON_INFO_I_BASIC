@@ -1,0 +1,5 @@
+1|jorge|perez|1111|coomeva|15
+2|carlos|arango|222222|sura|23
+3|marcela|ramírez|3333331|sisben|16
+4|mario|rojas|4444|sanitas|24
+5|maria|contreras|55555|sura|44

@@ -1,0 +1,24 @@
+1H:\-&:::CIRUGIA-01-3:::::PISO 3::::20180811
+07
+2P:0:---MARCA:DRAEGER:::::::::
+3F
+EA
+4R:1:---NAME:MÁQUINA DE ANESTESIA:::::::::
+62
+5R:2:---SERIAL::MQS7J23TR15::::::::
+A7
+6R:3:---FREC. MTTO:::3 MESES:::::::
+DF
+7R:4:---FREC. CAL:::::SEMESTRAL:::::
+21
+0R:5:---FECHA ULTIMO MTTO::::::20180910::::
+67
+1R:6:---FECHA ULTIMO CAL::::::20181105::::
+B1
+2R:7:---OPERATIVO::::::::::NO
+10
+3R:8:---FECHA PROX MTTO::::::20181211::::
+5E
+4R:9:---FECHA PROX CAL::::::20190508::::
+3B
+5R:10:---DESCRIPCION: Dispositivo médico que se utiliza para generar un flujo de gas fresco de gases médicos y agentes anestésicos por inhalación con el fin de inducir y mantener la anestesia.

@@ -1,0 +1,4 @@
+1#Juan#Perez#8 SEMESTRE#21#Ingeniería Electrónica
+2#Pedro#Gomez#4 SEMESTRE#26#Matemáticas
+3#David#McEwen#5 Semestre#19#Bioingeniería
+4#Maria#Rivera#2 SEMESTRE#20#Medicina

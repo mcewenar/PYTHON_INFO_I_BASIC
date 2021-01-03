@@ -1,0 +1,24 @@
+1H:\-&:::UCI-01-3:::::PISO 2::::20181019
+07
+2P:0:---MARCA:MEDTRONIC:::::::::
+3F
+EA
+4R:1:---NAME:MONITOR DE SIGNOS VITALES:::::::::
+62
+5R:2:---SERIAL::CD7J236712::::::::
+A7
+6R:3:---FREC. MTTO:::6 MESES:::::::
+DF
+7R:4:---FREC. CAL:::::ANUAL:::::
+21
+0R:5:---FECHA ULTIMO MTTO::::::20180607::::
+67
+1R:6:---FECHA ULTIMO CAL::::::20181011::::
+B1
+2R:7:---OPERATIVO::::::::::SI
+10
+3R:8:---FECHA PROX MTTO::::::20181210::::
+5E
+4R:9:---FECHA PROX CAL::::::20191010::::
+3B
+5R:10:---DESCRIPCION: Equipo con capacidad para leer variables entre los que se encuentran electrocardiografía, respiración (RESP), pulso oximetría (SpO2), temperatura (T°) y presión arterial no invasiva (PNI)
