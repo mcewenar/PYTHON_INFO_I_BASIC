@@ -49,3 +49,8 @@ print("\n")
 print(True > False) #1>0 == True
 print(True < False) #0<1 == False
 
+#Existe un literal especial más utilizado en Python: el literal None. Este literal es llamado un objeto de NonType 
+#(ningún tipo), y puede ser utilizado para representar la ausencia de un valor. 
+#Pronto se hablará más acerca de ello.
+print("\n")
+print(2+2)

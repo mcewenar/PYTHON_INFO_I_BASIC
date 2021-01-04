@@ -1,0 +1,1 @@
+#Operadores: +, -, *, /, //, %, ** (menor a mayor jerarquía)
