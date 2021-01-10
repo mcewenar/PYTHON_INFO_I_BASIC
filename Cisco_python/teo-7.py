@@ -30,3 +30,11 @@ print(6. // -4)
 El resultado es un par de dos negativos. El resultado real (no redondeado) es -1.5 en ambo casos.
 Sin embargo, los resultados se redondean. 
 El redondeo se hace hacia el valor inferior entero, dicho valor es -2, por lo tanto los resultados son: -2 y -2.0."""
+
+
+
+a = 6
+b = 3
+a /= 2 * b
+print(a) #2 * b = 6
+#a = 6 → 6 / 6 = 1.0

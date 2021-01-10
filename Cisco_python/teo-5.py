@@ -54,3 +54,8 @@ print(True < False) #0<1 == False
 #Pronto se hablará más acerca de ello.
 print("\n")
 print(2+2)
+
+
+a = '1'
+b = "1"
+print(a + b) 
