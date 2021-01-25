@@ -2,6 +2,8 @@
 #que es un entero, e imprime False si n es menor que 100, y True si n es mayor o igual que 100.
 
 
-n= int(input("Enter the number: "))
-n = (False == n < 100) or (n>=100)
-print(n)
+while True:
+    n= int(input("Enter the number: "))
+    print(n>=100)
+
+
