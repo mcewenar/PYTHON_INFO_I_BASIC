@@ -22,8 +22,8 @@ print("Fuera del ciclo", contador)
 
 print("------------------------1----------------------------")
 #Son iguales
-contador=5
+contador=5 
 while contador:
     print("Dentro del ciclo.", contador)
     contador -= 1
-print("Fuera del ciclo", contador)
+print("Fuera del ciclo", contador) #Para porque False es 0
