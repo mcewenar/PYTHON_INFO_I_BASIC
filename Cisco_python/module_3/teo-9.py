@@ -31,7 +31,7 @@ print("------------------------------------")
 #La variable i conserva su último valor.
 
 i = 111
-for i in range(2, 1): #No se ejecuta (no aplica a rangos decrecientes)
+for i in range(2, 1): #No se ejecuta (no es vádido rangos decrecientes)
     print(i)
 else:
     print("else:", i) 
