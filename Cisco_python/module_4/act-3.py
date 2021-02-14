@@ -44,7 +44,7 @@ def dayOfYear(year, month, day):
 while True:
     try:
         x=int(input("Ingrese un año: "))
-        y=int(input("Ingrese el mes: "))3
+        y=int(input("Ingrese el mes: "))
         z=int(input("Ingrese el día: "))
         print(dayOfYear(x, y, z))
 
