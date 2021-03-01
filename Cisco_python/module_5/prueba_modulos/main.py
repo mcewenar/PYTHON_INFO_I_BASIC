@@ -1,0 +1,16 @@
+import module
+# main.py
+
+print(module.counter) #trae la variable de module.py
+
+print("---2---")
+
+
+# main.py
+
+from module import suml, prodl
+
+zeroes = [0 for i in range(5)]
+ones = [1 for i in range(5)]
+print(suml(zeroes))
+print(prodl(ones))
