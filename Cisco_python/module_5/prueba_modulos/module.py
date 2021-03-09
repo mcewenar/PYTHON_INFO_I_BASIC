@@ -43,6 +43,8 @@ def prodl(list):
 		prod *= el
 	return prod
 
+# It's as if the interpreter inserts this at the top
+# of your module when run as the main program.
 if __name__ == "__main__":
 	print("I prefer to be a module, but I can do some tests for you")
 	l = [i+1 for i in range(5)]

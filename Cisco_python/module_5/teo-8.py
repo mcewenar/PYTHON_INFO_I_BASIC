@@ -25,8 +25,48 @@
 #Hemos lanzado el código dentro del directorio C:\User\user y obtenemos:
 
 #C:\Users\user
-#C:\Users\user\AppData\Local\Programs\Python\Python36-32\python36.zip
-#C:\Users\user\AppData\Local\Programs\Python\Python36-32\DLLs
+#C:\Users\user\AppData\Local\Programs\Python\Python36-32\python36.zip (EL ARCHIVO .ZIP)
 #C:\Users\user\AppData\Local\Programs\Python\Python36-32\lib
 #C:\Users\user\AppData\Local\Programs\Python\Python36-32
 #C:\Users\user\AppData\Local\Programs\Python\Python36-32\lib\site-packages
+
+#Nota: la carpeta en la que comienza la ejecución aparece en el primer elemento de la ruta.
+
+#Ten en cuenta también que: hay un archivo zip listado como uno de los elementos de la ruta, esto no es un error. 
+#Python puede tratar los archivos zip como carpetas ordinarias, esto puede ahorrar mucho almacenamiento.
+
+#¿Puedes predecir cómo resolver este problema?
+
+#Puedes resolverlo agregando una carpeta que contenga el módulo a la variable de ruta (path variable), es completamente modificable.
+
+#Una de las varias soluciones posibles se ve así:
+# main.py
+
+#from sys import path
+
+#path.append('..\\modules')
+
+#import module
+
+#zeroes = [0 for i in range(5)]
+#ones = [1 for i in range(5)]
+#print(module.suml(zeroes))
+#print(module.prodl(ones))
+
+
+#Nota:
+
+#Se ha duplicado la \ dentro del nombre de la carpeta, ¿sabes por qué?
+
+#Revisar
+#Debido a que una diagonal invertida se usa para escapar de otros caracteres, si deseas obtener solo una diagonal invertida, debe escapar.
+
+
+#Hemos utilizado el nombre relativo de la carpeta: esto funcionará si inicia el archivo main.py directamente desde su carpeta de inicio, 
+#y no funcionará si el directorio actual no se ajusta a la ruta relativa; siempre puedes usar una ruta absoluta, como esta:
+
+#path.append('C:\\Users\\user\\py\\modules')
+
+#IMPORTANTE:
+#Hemos usado el método append(), la nueva ruta ocupará el último elemento en la lista de rutas; si no te gusta la idea, 
+#puedes usar en lugar de ello el método insert().
