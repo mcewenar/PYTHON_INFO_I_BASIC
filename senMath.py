@@ -1,5 +1,7 @@
 import math as n
 
+pe=n.radians(45)
+print(pe)
+seno=n.sin(pe)
 
-seno=n.sin(45)
 print(seno) #Está en radianes
