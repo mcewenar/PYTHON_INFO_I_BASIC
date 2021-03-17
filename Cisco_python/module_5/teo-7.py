@@ -188,7 +188,7 @@ print("----5----")
 
 #!/usr/bin/env python3 
 
-""" module.py - an example of Python module """
+#""" module.py - an example of Python module """
 
 #__counter = 0
 
