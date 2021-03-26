@@ -128,6 +128,8 @@ print("---4---")
 #Intenta extender la jerarquía de la forma que quieras y encuentra el lugar adecuado para los humanos.
 
 print("---5---")
+
+#PENDIENTE (IMPORTANTÍSIMO):
 #¿Qué es un objeto?
 #Una clase (entre otras definiciones) es un conjunto de objetos. Un objeto es un ser perteneciente a una clase.
 
@@ -146,7 +148,7 @@ print("---5---")
 #Ten en cuenta que hemos supuesto que una clase solo puede tener una superclase; esto no siempre es cierto, 
 #pero discutiremos este tema más adelante.
 
-#Herencia
+#Herencia:
 #Definamos uno de los conceptos fundamentales de la programación de objetos, llamado herencia. 
 #Cualquier objeto vinculado a un nivel específico de una jerarquía de clases hereda todos los rasgos 
 #(así como los requisitos y cualidades) definidos dentro de cualquiera de las superclases.
