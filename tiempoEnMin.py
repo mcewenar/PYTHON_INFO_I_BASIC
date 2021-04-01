@@ -42,4 +42,3 @@ minutos=str((min+dura)%60)
 # calcula los minutos totales y luego lo convierte a horas para luego convertirlo a una cadena
 horas=str(((hora*60 + min + dura)//60) % 24)
 print("Hora: "+horas+":"+minutos)
-

@@ -31,3 +31,19 @@ def fib(n):
 
 x=int(input("Enter a number: "))
 print(fib(x))
+
+
+#Fibonacci por generador:
+def Fib(n):
+    p = pp = 1
+    for i in range(n):
+        if i in [0, 1]:
+            yield 1
+        else:
+            n = p + pp
+            pp, p = p, n
+            yield n
+
+fibs = list(Fib(10))
+
+print(fibs)

@@ -1,6 +1,8 @@
 #Las excepciones son clases
 #Todas las excepciones integradas de Python forman una jerarquía de clases.
 
+
+#CÓDIGO PARA ANALIZAR MÁS ADELANTE:
 #Analiza el código en el editor.
 def printExcTree(thisclass, nest = 0):
     if nest > 1:
