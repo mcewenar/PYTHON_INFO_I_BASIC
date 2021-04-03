@@ -119,3 +119,10 @@ def a(x):
 x = a("x")
 y=a("")
 print(x() + y())
+
+
+print("---13---")
+
+a=2_2_2
+b=2
+print(a*b)
