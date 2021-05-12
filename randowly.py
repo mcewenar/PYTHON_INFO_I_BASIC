@@ -155,3 +155,13 @@ def o(p):
 r = o(1)
 s = o(2)
 print(r()+s())
+
+
+print("---16---")
+if (7>5>3):
+    print("True")
+else:
+    print("False") #True, pero en Javascript arroja False, porque se lee de izq. a derecha,
+    #pero en Python se lee de derecha a izquierda
+
+print("segunda parte: ", True>3,True>False)
