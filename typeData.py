@@ -12,11 +12,11 @@ def isInt(data):
         return None
 
     
-print(isInt(5))
-print(isInt(5.0))
-print(isInt("5"))
-print(isInt("Hola mundo"))
+#print(isInt(5))
+#print(isInt(5.0))
+#print(isInt("5"))
+#print(isInt("Hola mundo"))
 
 
-x=input("Ingrese cualquier dato: ")
+x=int(input("Ingrese cualquier dato: "))
 print(isInt(x))

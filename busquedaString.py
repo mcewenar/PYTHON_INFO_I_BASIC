@@ -44,18 +44,38 @@
 #No
 
 #Escribe un string que se busca en otro string, así esté en desorden
-def finder(string1,string2):
-    for i in string1:
-        fnd = string2.find(i)
-        if fnd!= -1:
-            encontrado="Sí"
+#def finder(string1,string2):
+#    for i in string1:
+#        fnd = string2.find(i)
+#        if fnd!= -1:
+#            encontrado="Sí"
+#        else:
+#            encontrado="No"
+#            break
+#    return encontrado
+#    
+#while True:
+#    first=input("Ingresa cadena uno: ")
+#    second=input("Ingresa segunda cadena: ")
+#    p=finder(first,second)
+#    print(p)
+
+
+#FORMA MÁS SOFISTICADA:
+def finder(palabra,frase):
+    existe: bool = True
+    for letra in palabra:
+        NN=len(frase)
+        if letra in frase:
+            pos = frase.find(letra)
+            print("Posición",pos, ", letra",letra,":", end=" ") #Consiste en rebanar la cadena y omitit los letras que están contenidas
+            izq = frase[0:pos]
+            der = frase[pos+1:NN]
+            print(izq,der)
+            frase = izq + der
         else:
-            encontrado="No"
+            existe = False
+            print(existe,": No hallo la letra",letra)
             break
-    return encontrado
-    
-while True:
-    first=input("Ingresa cadena uno: ")
-    second=input("Ingresa segunda cadena: ")
-    p=finder(first,second)
-    print(p)
+    return existe
+print(finder(input("Escriba cadena 1: "),input("Escriba cadena 2: ")))
